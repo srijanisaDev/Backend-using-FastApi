@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual environment ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Alembic (keep migration scripts, ignore generated cache only) ---
+# Note: do NOT ignore the migrations/ folder itself — those files should be committed.
+# This only ignores Python cache inside it, already covered by __pycache__/ above.
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Type checking / linting caches ---
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Misc project-specific ---
+timestamps.txt
