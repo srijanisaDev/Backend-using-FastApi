@@ -8,4 +8,5 @@ alembic
 passlib
 bcrypt==4.0.1
 pyjwt
-aioredis
+# aioredis  --> this was the older version --> now only pip install redis
+redis
