@@ -11,3 +11,4 @@ pyjwt
 # aioredis  --> this was the older version --> now only pip install redis
 redis
 fastapi-mail
+itsdangerous   ## for user verification

@@ -37,3 +37,5 @@ class UserLoginModel(BaseModel):
 
 class EmailModel(BaseModel):
     addresses : List[str]                
+
+
